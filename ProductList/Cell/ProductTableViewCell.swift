@@ -50,7 +50,7 @@ class ProductTableViewCell: UITableViewCell {
         let view = UILabel()
         view.textColor = .label
         view.textAlignment = .center
-        view.font = .systemFont(ofSize: 15)
+        view.font = .systemFont(ofSize: 16)
         view.numberOfLines = 0
         return view
     }()
