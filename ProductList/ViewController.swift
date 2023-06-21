@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         }
         view.addSubview(productsTableView)
         productsTableView.snp.makeConstraints { make in
-            make.top.equalTo(productsSearchBar.snp.bottom).offset(10)
+            make.top.equalTo(productsSearchBar.snp.bottom).offset(15)
             make.trailing.leading.equalToSuperview().inset(20)
             make.bottom.equalToSuperview()
         }
