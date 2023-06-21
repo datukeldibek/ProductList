@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         fetchProducts()
         setUp()
+        view.backgroundColor = .red
     }
     
     func setUp() {
