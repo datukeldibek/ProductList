@@ -14,7 +14,7 @@ class ProductTableViewCell: UITableViewCell {
     
     private var productImage: UIImageView = {
         let view = UIImageView()
-        view.layer.cornerRadius = 20
+        view.layer.cornerRadius = 25
         return view
     }()
     
