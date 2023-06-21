@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     func setupConstraints() {
         view.addSubview(productsSearchBar)
         productsSearchBar.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(60)
+            make.top.equalToSuperview().offset(65)
             make.leading.trailing.equalToSuperview()
         }
         view.addSubview(productsTableView)
